@@ -1,4 +1,4 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

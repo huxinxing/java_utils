@@ -1,6 +1,5 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
-import com.bcb.SpringUtil;
 import org.apache.commons.codec.binary.Base32;
 import org.apache.commons.codec.binary.Base64;
 

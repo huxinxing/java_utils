@@ -1,4 +1,4 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

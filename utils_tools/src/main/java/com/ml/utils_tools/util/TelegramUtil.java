@@ -1,17 +1,15 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
 import java.util.Date;
 
-import com.bcb.bean.SystemProperties;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.apache.log4j.Logger;
 
 import com.alibaba.fastjson.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
 
+@Slf4j
 public class TelegramUtil {
-	private static Logger log = Logger.getLogger(TelegramUtil.class);
-	
+
 	private static String bot_username = "x_alert_msg_bot";
 
 	// 钱包余额提醒

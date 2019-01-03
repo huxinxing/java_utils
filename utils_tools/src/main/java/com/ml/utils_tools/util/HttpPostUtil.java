@@ -1,4 +1,4 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;

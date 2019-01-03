@@ -1,6 +1,7 @@
-package com.bcb.util.eth;
+package com.ml.utils_tools.util.eth;
 
-import org.apache.commons.lang3.StringUtils;
+
+import org.springframework.util.StringUtils;
 
 /**
  * 币种类型
@@ -21,7 +22,7 @@ public class Tag01 implements ITlvEnable {
 
     @Override
     public byte[] getTlv() {
-        if (StringUtils.isBlank(desc)) {
+        if (StringUtils.isEmpty(desc)) {
             return null;
         }
         byte bDesc[] = desc.getBytes();

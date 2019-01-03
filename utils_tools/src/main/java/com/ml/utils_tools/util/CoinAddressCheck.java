@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 @Component
-public class BCBAddressCheck {
+public class CoinAddressCheck {
 
 
     public boolean checkAddress(String address) throws Exception {

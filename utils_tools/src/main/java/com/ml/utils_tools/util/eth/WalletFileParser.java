@@ -1,4 +1,4 @@
-package com.bcb.util.eth;
+package com.ml.utils_tools.util.eth;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
@@ -8,7 +8,6 @@ import java.sql.Timestamp;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.bcb.domain.entity.FinancingWalletInfo;
 
 
 /**

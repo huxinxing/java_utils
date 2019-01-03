@@ -1,4 +1,4 @@
-package com.bcb.util;
+package com.ml.utils_tools.util;
 
 /**
  * Created by kx on 2018/1/28.
